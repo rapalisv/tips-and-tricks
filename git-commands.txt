@@ -1,3 +1,6 @@
+// Show Git Configuration
+git config --list
+
 // Git Commit
 git commit -m "Merge branch initialisierung"   
 
