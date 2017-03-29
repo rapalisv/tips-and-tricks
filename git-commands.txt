@@ -1,6 +1,9 @@
 // Show Git Configuration
 git config --list
 
+// Untrack To Last Commit
+git checkout HEAD somefile.txt
+
 // Git Commit
 git commit -m "Merge branch initialisierung"   
 
