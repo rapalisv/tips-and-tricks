@@ -27,8 +27,12 @@ git merge branch-name
 git branch -D branch-name
 
 // Git Show Branches
+git branch
 git show-branch [-a|--all] [-r|--remotes] [--topo-order | --date-order]
 		[--current] [--color[=<when>] | --no-color] [--sparse]
 		[--more=<n> | --list | --independent | --merge-base]
 		[--no-name | --sha1-name] [--topics]
 		[(<rev> | <glob>)…​]
+// Fetch Remote Branch
+git fetch origin fetch-to-local-branch-name : remote-branch-name
+// Delete Brach Remote
