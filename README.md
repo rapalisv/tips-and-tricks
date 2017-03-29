@@ -1,2 +1,4 @@
-# tips-and-tricks
-Tips And Tricks for example Git Commands
+# Tips
+
+Git Commands
+

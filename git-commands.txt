@@ -1,0 +1,27 @@
+// Git Commit
+git commit -m "Merge branch initialisierung"   
+
+// New Remote Repository
+https://egp.msg-gillardon.de:6443/egp/reporting.git
+
+// Old Remote Repository
+https://egp-neu.msg-gillardon.de:6443/egp/reporting.git/'
+
+// Set New Git Remote Url
+git remote set-url origin https://egp.msg-gillardon.de:6443/egp/reporting.git
+
+// Create New Branch
+git branch branch-name
+
+// Switch Branch
+git checkout branch-name
+
+// Add All Modiefied
+git add --all
+
+// Merge Branch
+1. Switch To Master Branch
+git merge branch-name
+
+// Delete Branch
+git branch -D branch-name
