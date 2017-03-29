@@ -25,3 +25,10 @@ git merge branch-name
 
 // Delete Branch
 git branch -D branch-name
+
+// Git Show Branches
+git show-branch [-a|--all] [-r|--remotes] [--topo-order | --date-order]
+		[--current] [--color[=<when>] | --no-color] [--sparse]
+		[--more=<n> | --list | --independent | --merge-base]
+		[--no-name | --sha1-name] [--topics]
+		[(<rev> | <glob>)…​]
