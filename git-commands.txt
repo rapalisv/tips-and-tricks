@@ -16,6 +16,27 @@ https://egp-neu.msg-gillardon.de:6443/egp/reporting.git/'
 // Set New Git Remote Url
 git remote set-url origin https://egp.msg-gillardon.de:6443/egp/reporting.git
 
+// Update Last Commit
+git commit --amend -m "Update Last Commit"
+
+// Go Back To Particular Commit And Take The Copy Of It File
+git checkout commit-number -- file-name
+
+// Show Where The Head Is
+cat .git/HEAD
+
+// Show All HEADS
+ls -la .git/refs/heads
+
+// Rename Branch
+git branch -m branch-name branch-new-name
+
+// Untrack From Index
+git reset HARD file-name
+
+// Show Commits 
+git log --oneline
+
 // Create New Branch
 git branch branch-name
 
