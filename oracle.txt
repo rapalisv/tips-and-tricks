@@ -1,0 +1,20 @@
+#Oracle Tips
+
+$ sqlplus
+
+# Log as Sys
+$ / as sysdba 
+
+# Create User
+create user rapalisv identified by 123456;
+
+# Grant Permission
+grant create session, resource to reporting
+grant create table to reporting
+grant unlimited tablespace to reporting;
+
+#select users
+select username from dba_users;
+
+#select/show the version
+SELECT * FROM V$VERSION

@@ -56,6 +56,9 @@ git merge branch-name
 // Delete Branch
 git branch -D branch-name
 
+// Push Local Branch To Remote
+git push origin pom-config:pom-config
+
 // Git Show Branches
 git branch
 git show-branch [-a|--all] [-r|--remotes] [--topo-order | --date-order]
