@@ -81,3 +81,5 @@ git fetch
 
 // Checkout The New Fetched Branch
 git checkout -b brachName origin/branchName
+
+Update Row In Feature1 Branch
