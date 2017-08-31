@@ -12,12 +12,12 @@ git log --oneline --graph
 -------------------------------------
 
 # Git Commit
-git commit -m "Merge branch initialisierung"   
+git commit -m "Commit Msg"   
 
 # Update Last Commit
 git commit --amend -m "Update Last Commit"
 
-# Git Add And Commmit
+# Git Add And Commit
 git commit -am "Commit Message"
 
 --------------------------------------
@@ -27,7 +27,6 @@ git commit -am "Commit Message"
 -------------------------------------
 
 # Merge Branch
-1. Switch To Master Branch
 git merge branch-name
 
 # Create New Branch
@@ -48,8 +47,10 @@ git push origin pom-config:pom-config
 # Show Remotes Branch
 git branch -v -a
 
-# Git Show Branches
+# Show Branches
 git branch
+
+# Show Properties 
 git show-branch [-a|--all] [-r|--remotes] [--topo-order | --date-order]
 		[--current] [--color[=<when>] | --no-color] [--sparse]
 		[--more=<n> | --list | --independent | --merge-base]
@@ -67,6 +68,7 @@ git fetch
 
 # List Of Remote Branches
 git branch --remote 
+
 -------------------------------------
 
 <!-- Work Flow Branches -->
@@ -88,7 +90,8 @@ git checkout "Branch-Name"
 
 --------------------------------------
 
-
+# Soft Reset (Go To Particular Commit. Use-Full For Merging Commits)
+git reset --soft "commit hash example 67f21" 
 
 -------------------------------------
 
@@ -110,9 +113,6 @@ git remote set-url origin https://egp.msg-gillardon.de:6443/egp/reporting.git
 
 // Go Back To Particular Commit And Take The Copy Of It File
 git checkout commit-number -- file-name
-
-// Show Where The Head Is
-cat .git/HEAD
 
 # Add All Modiefied
 git add --all
