@@ -28,9 +28,6 @@ ls -la .git/refs/heads
 // Rename Branch
 git branch -m branch-name branch-new-name
 
-// Untrack From Index
-git reset HARD file-name
-
 // Show Commits 
 git log --oneline
 
