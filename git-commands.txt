@@ -59,6 +59,15 @@ git branch -D branch-name
 // Push Local Branch To Remote
 git push origin pom-config:pom-config
 
+// Show Remotes Branch
+git branch -v -a
+
+// Fetch All From Remote
+git fetch   
+
+// Get Remote Branch
+git checkout -b update-version origin/update-version  
+
 // Git Show Branches
 git branch
 git show-branch [-a|--all] [-r|--remotes] [--topo-order | --date-order]
@@ -69,3 +78,15 @@ git show-branch [-a|--all] [-r|--remotes] [--topo-order | --date-order]
 // Fetch Remote Branch
 git fetch origin fetch-to-local-branch-name : remote-branch-name
 // Delete Brach Remote
+
+
+#Git Config
+git config --local --list 
+
+<!-- Workwlow fetch remote Branch -->
+-------------------------------------
+//Fetch All Branches Local
+git fetch 
+
+// Checkout The New Fetched Branch
+git checkout -b brachName origin/branchName
