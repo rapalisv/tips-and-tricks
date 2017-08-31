@@ -90,6 +90,12 @@ git checkout "Branch-Name"
 
 --------------------------------------
 
+# Rest Specific File From Index/Staging Area
+git reset FileName
+
+# Go Back To Last Commit Stage For Specific File
+git checkout Filename
+
 # Soft Reset (Go To Particular Commit. Use-Full For Merging Commits)
 git reset --soft "commit hash example 67f21" 
 
