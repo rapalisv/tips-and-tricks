@@ -81,6 +81,3 @@ git fetch
 
 // Checkout The New Fetched Branch
 git checkout -b brachName origin/branchName
-
-Updatet In Feature1 Brnach And Master Resolved Merge Conflict
-
