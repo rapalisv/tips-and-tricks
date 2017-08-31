@@ -28,9 +28,6 @@ ls -la .git/refs/heads
 // Rename Branch
 git branch -m branch-name branch-new-name
 
-// Untrack From Index
-git reset HARD file-name
-
 // Show Commits 
 git log --oneline
 
@@ -84,3 +81,5 @@ git fetch
 
 // Checkout The New Fetched Branch
 git checkout -b brachName origin/branchName
+
+Working in this Row in Master branch Workin Also in Feature Branch1
