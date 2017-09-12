@@ -72,6 +72,13 @@ git fetch
 # List Of Remote Branches
 git branch --remote 
 
+
+-------------------------------------
+
+<!-- Clone -->
+
+-------------------------------------
+git -c http.proxy="" -c http.sslVerify=false clone https://...
 -------------------------------------
 
 <!-- Work Flow Branches -->
